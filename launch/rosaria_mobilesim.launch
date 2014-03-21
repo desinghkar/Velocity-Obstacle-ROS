@@ -1,0 +1,16 @@
+<launch>
+
+	<group ns="Robot">
+		<node pkg="velocity_obstacle" name="rosaria" type="robot_node" output="screen">
+		<param name="port" value = "localhost:8101"/>
+		</node>
+	</group>
+
+	<group ns="Obstacle">
+		<node pkg="velocity_obstacle" name="rosaria" type="robot_node" output="screen">
+		<param name="port" value = "localhost:8102"/>
+		</node>
+
+	</group>
+
+</launch>

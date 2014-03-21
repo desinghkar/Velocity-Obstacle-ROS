@@ -1,0 +1,18 @@
+2D-Map
+LineMinPos: -4000 -4000
+LineMaxPos: 4000 4000
+NumLines: 4
+LinesAreSorted: true
+Cairn: Dock -3000 -3000 0.000000 "" ICON "(-3, -3)"
+Cairn: Dock -3000 0 0.000000 "" ICON "(-3, 0)"
+Cairn: Goal -3000 3000 0.000000 "" ICON "Goal"
+Cairn: Dock 0 0 0.000000 "" ICON "(0, 0)"
+Cairn: Dock 3000 -3000 0.000000 "" ICON "(3, -3)"
+Cairn: Dock 3000 0 0.000000 "" ICON "(3, 0)"
+Cairn: Dock 3000 3000 0.000000 "" ICON "(3, 3)"
+LINES
+-4000 -4000 4000 -4000
+-4000 4000 -4000 -4000
+-4000 4000 4000 4000
+4000 4000 4000 -4000
+DATA

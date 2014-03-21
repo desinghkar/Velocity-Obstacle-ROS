@@ -1,0 +1,12 @@
+<launch>
+
+	<group ns="robot1">
+		<node pkg="mobile_robots" name="rob" type="robot_node"/>
+	</group>
+
+	<group ns="robot2">
+		<node pkg="mobile_robots" name="rob" type="robot_node"/>
+	</group>
+
+
+</launch>
